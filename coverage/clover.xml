@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1629396896416" clover="3.2.0">
+  <project timestamp="1629396896417" name="All files">
+    <metrics statements="25" coveredstatements="25" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6" elements="37" coveredelements="37" complexity="0" loc="25" ncloc="25" packages="1" files="1" classes="1"/>
+    <file name="LinkedList.js" path="/vagrant/w9/linked-list-js/LinkedList.js">
+      <metrics statements="25" coveredstatements="25" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6"/>
+      <line num="3" count="6" type="stmt"/>
+      <line num="4" count="6" type="stmt"/>
+      <line num="8" count="17" type="stmt"/>
+      <line num="9" count="17" type="stmt"/>
+      <line num="10" count="17" type="stmt"/>
+      <line num="14" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="16" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="26" count="2" type="stmt"/>
+      <line num="27" count="2" type="stmt"/>
+      <line num="29" count="2" type="stmt"/>
+      <line num="30" count="6" type="stmt"/>
+      <line num="31" count="6" type="stmt"/>
+      <line num="33" count="2" type="stmt"/>
+      <line num="39" count="17" type="stmt"/>
+      <line num="40" count="17" type="stmt"/>
+      <line num="44" count="1" type="stmt"/>
+      <line num="45" count="5" type="stmt"/>
+      <line num="46" count="5" type="stmt"/>
+      <line num="47" count="15" type="stmt"/>
+      <line num="49" count="5" type="stmt"/>
+      <line num="52" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

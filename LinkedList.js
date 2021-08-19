@@ -22,6 +22,31 @@ class LinkedList {
     return current;
   };
 
+  insertAtIndex(index, value) {
+    if (index === 0) return this.prepend(value);
+
+    const prev = this.getByIndex(index - 1);
+    if (prev === null) return null;
+
+    prev.next = new LinkedListNode(value, prev.next);
+    this.length++;
+  };
+
+  removeAtIndex(index) {
+    if (index === 0) return this.shift();
+
+    const prev = this.getByIndex(index - 1);
+    if (prev === null) return null;
+
+    prev.next = prev.next.next;
+    this.length--;
+  };
+
+  shift() {
+    this.head = this.head.next;
+    this.length--;
+  };
+
   printAll() {
     let list = '';
     let current = this.head;
@@ -29,9 +54,9 @@ class LinkedList {
     while (current) {
       list = `${list}${current.value} ~> `;
       current = current.next;
-    }
+    };
     return `${list}${null}`;
-  }
+  };
 };
 
 class LinkedListNode {
